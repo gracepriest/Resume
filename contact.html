@@ -6,16 +6,41 @@
         <link rel="stylesheet" href="styleContact.css">
     </head>
     <body>
-        <h1>Contact For Jobs</h1>
-        <h3>Were ready to meet all your gaming needs</h3>
-        <form>
-            <label for="fName">First Name</label>
-            <label for="lName">Last Name</label>
-            <br>
-            <input type="text" name="fName" id="fName">
-            <input type="text" name="lName" id="fName">
+        <div id="form-popup">
+            <p class="X" onclick="closeForm()">X</p>
+            <h1>Contact For Jobs</h1>
+            <h3>Were ready to meet all your gaming needs</h3>
+    
+            <form id="form1">
+                <label for="fName" class="txtFont">First Name</label>
+                <label for="lName" class="txtLName txtFont">Last Name</label>
+                <br>
+                <input type="text" name="fName" id="fName">
+                <input type="text" name="lName" id="lName">
+                <br>
+                <br>
+                <br>
+                <label for="email" class="txtFont">Email</label>
+                <input type="email" name="email" id="email">
+                <br>
+                <br>
+                <label for="txtBox" class="txtFont">Message</label>
+                <textarea name="txtBox" id="txtBox" rows="4" cols="50"></textarea>
+                <br>
+                <br>
+                <button type="button" name="submit" id="submit" onclick="closeForm()">Send</button>
+            </form>
+        </div>
+        <script defer>
+            function openForm() {
+                
+              document.getElementById("form-popup").style.display = "block";
+            }
             
-
-        </form>
+            function closeForm() {
+              document.getElementById("form-popup").style.display = "none";
+              window.location.href = "index.html";
+            }
+            </script>
     </body>
 </html>

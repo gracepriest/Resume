@@ -1,0 +1,56 @@
+#form-popup {
+   
+    position: fixed;
+    width: 700px;
+    height: 600px;
+    bottom: 25%;
+    right: 35%;
+    background-color: wheat;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+  }
+
+  #fName{
+    width: 300px; 
+    height: 40px;
+    background-color: blanchedalmond;
+ }
+ #lName{
+     width: 310px; 
+     height: 40px;
+     background-color: blanchedalmond;
+     float: right;
+ }
+ .txtLName{
+    float: right;
+    margin-right: 15.3em;;
+ }
+ #email{
+     width: 690px; 
+     height: 40px;
+     background-color: blanchedalmond;
+ }
+ #txtBox{
+     width: 690px; 
+     height: 160px;
+     background-color: blanchedalmond;
+     
+ }
+ #submit{
+    background-color: #264359;
+    width: 690px; 
+    height: 40px;
+    font-size: 20px;
+ }
+ .txtFont{
+    color:#264359;
+    font-weight: bolder;
+ }
+ .X{
+    position: absolute;
+    right: 1em;
+    top: 1em;
+ }
+ .X:hover{
+    cursor: pointer;
+ }

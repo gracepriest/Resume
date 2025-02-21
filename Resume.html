@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta>
+        <title>Resume</title>
+        <link rel="stylesheet" href="styleResume.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+        
+        
+    </head>
+    <body>
+        
+        <section class="resumeContent">
+            <section class="leftSide">
+                <a href="index.html"><img src="iconChad.png" width="150" height="100" class="imgChad"></a>
+                <div class="contact">
+                    <h1 class="contactHeader">Contact</h1>
+                    <img src="icons8-phone-48.png" width="25" height="25" class="imgIcon">
+                    <p>555-555-5555</p>
+                    <br>
+                    <a href="#" onclick="openForm()" class="openPopup"><img src="icons8-email-50 (1).png" width="25" height="25" class="imgIcon">
+                    <p style="color:white;">Melvinkempjr3@outlook</p></a>
+                    <br>
+                    <img src="icons8-location-50 (1).png" width="25" height="25" class="imgIcon">
+                    <p>121 street Atlanta Ga</p>
+                    <br>
+                    <img src="icons8-www-50.png" width="25" height="25" class="imgIcon">
+                    <p>www.game.com</p>
+                </div>
+                <div class="education">
+                    <h1 class="eduHeader">Education</h1>
+                    <h2>2008-2010</h2>
+                    <h3>Atlanta Tech</h3>
+                    <ol class="orderList">
+                        <li>Associate  of Computer Programming</li>
+                    </ol>
+                    <h2>2025-2026</h2>
+                    <h3>Per scholas</h3>
+                    <ol class="orderList">
+                        <li>
+                            Software Engineering Certification
+                        </li>
+                    </ol>    
+                </div>
+                <div class="skills">
+                    <h1 class="skillsHeader">Skills</h1>
+                    <ol class="orderList">
+                        <li>C++</li>
+                        <li>Vb/Vb.net</li>
+                        <li>C#</li>
+                        <li>WPF</li>
+                    </ol>
+                </div>
+            </section>
+            <section class="rightSide">
+                <section>
+                 <p class="fName">MELVIN<span class="lName"> KEMP</span></p>
+                 <p class="title">Computer Programmer / Software Engineer</p>
+                 <div class="borderName"></div>
+                </section>
+                <section class="profile">
+                    <h1 class="profileHeaders">PROFILE</h1>
+                    <div class="borderProfiles"></div>
+                    <p class="profileText">Results-driven Software Engineer with a strong foundation in C, C++, VB.NET, and C#, along with a solid understanding of object-oriented programming (OOP) and the software development life cycle (SDLC). Proficient in basic networking and experienced in developing both general-purpose software and games. Passionate about designing efficient, scalable applications and creating engaging game experiences. Adept at problem-solving, debugging, and collaborating in team environments. Eager to leverage technical expertise and creativity to contribute to innovative projects and drive impactful software solutions</p>
+                </section>
+                <section class="work">
+                    <h1 class="profileHeaders">WORK EXPERINCE</h1>
+                    <div class="borderProfiles"></div>
+                    <ol class="profileText orderList">
+                        <li class="lHeader">Good Game Company<span class="txtDate">2021-2025</span></li>
+                        <p>Leader Coder</p>
+                        <br>
+                        <ol class="orderList">
+                            <li>Write game code, test final builds,Adept at problem-solving, debugging, and collaborating in team environments.</li>
+                            <li>Write game code, test final builds,Adept at problem-solving, debugging, and collaborating in team environments.</li>
+                            <li>Write game code, test final builds,Adept at problem-solving, debugging, and collaborating in team environments.</li>
+                        </ol>
+                        <li class="lHeader">Good Game Company<span  class="txtDate">2021-2025</span></li>
+                        <p>Leader Coder</p>
+                        <br>
+                        <ol class="orderList">
+                            <li>Write game code, test final builds,Adept at problem-solving, debugging, and collaborating in team environments.</li>
+                            <li>Write game code, test final builds,Adept at problem-solving, debugging, and collaborating in team environments.</li>
+                            <li>Write game code, test final builds,Adept at problem-solving, debugging, and collaborating in team environments.</li>
+                        </ol>
+                        <li class="lHeader">Good Game Company<span  class="txtDate">2021-2025</span></li>
+                        <p>Leader Coder</p>
+                        <br>
+                        <ol class="orderList">
+                            <li>Write game code, test final builds,Adept at problem-solving, debugging, and collaborating in team environments.</li>
+                            <li>Write game code, test final builds,Adept at problem-solving, debugging, and collaborating in team environments.</li>
+                            <li>Write game code, test final builds,Adept at problem-solving, debugging, and collaborating in team environments.</li>
+                        </ol>
+                    </ol>
+                </section>
+                <section class="reference">
+                    <h1 class="profileHeaders">REFERENCE</h1>
+                    <div class="borderProfiles"></div>
+                    <div class="reference1">
+                    <div class="ref1">
+                        <p>Eselle Darcy</p>
+                        <p>Wardere Inc / CTO</p>
+                        <p>Phone: 555-555-5555</p>
+                        <p>Email: street1@gmail.com</p>
+                    </div>
+                    <div class="ref2">
+                        <p>Malle Darcy</p>
+                        <p>Wardere Inc / CTO</p>
+                        <p>Phone: 555-555-5555</p>
+                        <p>Email: street1@gmail.com</p>
+                    </div>
+                </div>
+                </section>
+            </section>
+        </section>
+        <div id="form-popup">
+            <p class="X" onclick="closeForm()">X</p>
+            <h1>Contact For Jobs</h1>
+            <h3>Were ready to meet all your gaming needs</h3>
+    
+            <form id="form1">
+                <label for="fName" class="txtFont">First Name</label>
+                <label for="lName" class="txtLName txtFont">Last Name</label>
+                <br>
+                <input type="text" name="fName" id="fName">
+                <input type="text" name="lName" id="lName">
+                <br>
+                <br>
+                <br>
+                <label for="email" class="txtFont">Email</label>
+                <input type="email" name="email" id="email">
+                <br>
+                <br>
+                <label for="txtBox" class="txtFont">Message</label>
+                <textarea name="txtBox" id="txtBox" rows="4" cols="50"></textarea>
+                <br>
+                <br>
+                <button type="submit" name="submit" id="submit" onclick="closeForm()">Send</button>
+            </form>
+        </div>
+        <script defer>
+            function openForm() {
+                
+              document.getElementById("form-popup").style.display = "block";
+            }
+            
+            function closeForm() {
+              document.getElementById("form-popup").style.display = "none";
+            }
+            </script>
+    </body>
+</html>
