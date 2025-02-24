@@ -49,8 +49,7 @@ table {
     
 }
 .leftSide{
-    height: 100%;
-    padding-bottom: 100%;
+    min-height: 100vh;
     background-color:#163853;
     color: whitesmoke;
    
